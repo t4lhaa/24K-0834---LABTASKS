@@ -78,13 +78,13 @@ int main()
     
     DynamicArray D(size);
 
+    D.push(17);
+    D.push(9);
+    D.push(23);
     D.push(1);
-    D.push(2);
-    D.push(3);
-    D.push(4);
-    D.push(5);
+    D.push(56);
     D.printing();
     cout << endl;
-    D.push(6);
+    D.push(66);
     D.printing();
 }
